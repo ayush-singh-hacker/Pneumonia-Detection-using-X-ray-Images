@@ -9,7 +9,7 @@ import os
 # !!! IMPORTANT: UPDATE THESE TWO VARIABLES !!!
 WEBSITE_NAME = "Pneumonia Detection using X-ray Images" 
 # Replace with the public URL of your deployed Flask API (e.g., on Render)
-API_URL = "http://127.0.0.1:5000/predict" 
+API_URL = "https://chest-xray-diag.onrender.com/predict" 
 # If running locally, keep it as 'http://127.0.0.1:5000/predict' 
 # If deployed, it must be the public link: "https://your-public-api-name.render.com/predict"
 
@@ -105,4 +105,5 @@ st.markdown(
     1. **Deploy API (`api.py`):** Get a public URL (e.g., `https://my-pneumonia-api.render.com`). Update the `API_URL` variable above.
     2. **Deploy Client (`app.py`):** Deploy this script (e.g., via Streamlit Community Cloud) to get your final website link.
     """
+
 )
