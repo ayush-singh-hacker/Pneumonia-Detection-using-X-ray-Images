@@ -9,7 +9,7 @@ import os
 # !!! IMPORTANT: UPDATE THESE TWO VARIABLES !!!
 WEBSITE_NAME = "Pneumonia Detection using X-ray Images" 
 # Replace with the public URL of your deployed Flask API (e.g., on Render)
-API_URL = "https://chest-xray-diag.onrender.com/predict" 
+API_URL = "https://my-pneumonia-api.render.com" 
 # If running locally, keep it as 'http://127.0.0.1:5000/predict' 
 # If deployed, it must be the public link: "https://your-public-api-name.render.com/predict"
 
@@ -107,3 +107,4 @@ st.markdown(
     """
 
 )
+
